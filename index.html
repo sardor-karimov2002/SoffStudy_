@@ -1,0 +1,286 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Easier Website Template | Home :: w3layouts</title>
+		<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="js/jquery.min.js"></script>
+		 <!-- Custom Theme files -->
+		<link href="css/style.css" rel='stylesheet' type='text/css' />
+   		 <!-- Custom Theme files -->
+   		 <!---- start-smoth-scrolling---->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+		 <!---- start-smoth-scrolling---->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		</script>
+		<!----webfonts--->
+		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'>
+		<!---//webfonts--->
+		<!----start-top-nav-script---->
+		<script>
+			$(function() {
+				var pull 		= $('#pull');
+					menu 		= $('nav ul');
+					menuHeight	= menu.height();
+				$(pull).on('click', function(e) {
+					e.preventDefault();
+					menu.slideToggle();
+				});
+				$(window).resize(function(){
+	        		var w = $(window).width();
+	        		if(w > 320 && menu.is(':hidden')) {
+	        			menu.removeAttr('style');
+	        		}
+	    		});
+			});
+		</script>
+		<!----//End-top-nav-script---->
+	</head>
+	<body>
+		<!----- start-header---->
+			<div id="home" class="header">
+					<div class="top-header">
+						<div class="container">
+						<div class="logo">
+							<a href="#">Soff Study</a>
+						</div>
+						<!----start-top-nav---->
+						 <nav class="top-nav">
+							<ul class="top-nav">
+								<li class="active"><a href="#home" class="scroll">Asosiy sahifa </a></li>
+								<li class="page-scroll"><a href="#work" class="scroll">Biz haqqimizda</a></li>
+								<li class="page-scroll"><a href="#team" class="scroll">O'qtuvchilarmiz</a></li>
+								<li class="contatct-active" class="page-scroll"><a href="#contact" class="scroll">Bizni manzilimiz</a></li>
+							</ul>
+							<a href="#" id="pull"><img src="images/nav-icon.png" title="menu" /></a>
+						</nav>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+			</div>
+			<!----- //End-header---->
+			<!----banner---->
+			<div class="banner text-center">
+				<div class="container">
+					<div class="banner-info">
+						<h1><span>Soff Study</span> Zamonoviy kasblar markazi!</h1>
+						<p>Biz bilan bog'lanish uchun +998900026789</p>
+						<label class="page-scroll"><a class="big-btn scroll" href="#work1"><span> </span></a></label>
+					</div>
+				</div>
+			</div>
+			<!--//banner---->
+			<!---work--->
+			<div id="work" class="work">
+				<div id="work1" class="container">
+					<div class="head-one text-center">
+						<h2>Biz haqqimizda</h2>
+						<span> </span>
+						<p>Bizni o'quv markazimizda quyidagi yunalishlar mavjud!</p>
+					</div>
+					<!---works--->
+					<!---images-hover-effects--->
+					<script src="js/jquery.hoverGrid.js"></script>
+					<link rel="stylesheet" type="text/css" href="css/jquery.hoverGrid.css">
+					<script type="text/javascript">
+					    $(document).ready(function() {
+					      $('#whatever').hoverGrid();
+					    });
+					</script>
+					<!---images-hover-effects--->
+					<div class="works">
+							<div id="whatever">
+								<div class="col-md-4 work-grid">
+								    <div class="item">
+								        <img  src="./images/frontend.png" title="name" />
+								        <div class="caption" style="display: none;">
+								            <h2>Frontend</h2>
+								            <p>5- Oy davom etadi</p>
+								        </div>
+								    </div>  
+							    </div>  
+							    <div class="col-md-4 work-grid">
+								    <div class="item">
+								        <img  src="images/bekand1.jpg" title="name" />
+								        <div class="caption" style="display: none;">
+													<h2>Backend</h2>
+													<p>6- Oy davom etadi</p>
+								        </div>
+								    </div>  
+							    </div>    
+							    <div class="col-md-4 work-grid">
+								    <div class="item">
+								        <img  src="images/kampiyuter.avif" title="name" />
+								        <div class="caption" style="display: none;">
+													<h2>Kampiyuter savodxonligi</h2>
+													<p>2- Oy davom etadi</p>
+								        </div>
+								    </div>  
+							    </div>    
+							    <div class="col-md-4 work-grid">
+								    <div class="item">
+								        <img  src="images/w4.jpg" title="name" />
+								        <div class="caption" style="display: none;">
+													<h2>Frontend</h2>
+													<p>5- Oy davom etadi</p>
+								        </div>
+								    </div>  
+							    </div>    
+							    <div class="col-md-4 work-grid">
+								    <div class="item">
+								        <img  src="images/w5.jpg" title="name" />
+								        <div class="caption" style="display: none;">
+													<h2>Frontend</h2>
+													<p>5- Oy davom etadi</p>
+								        </div>
+								    </div>  
+							    </div>    
+							    <div class="col-md-4 work-grid">
+								    <div class="item">
+								        <img  src="images/w6.jpg" title="name" />
+								        <div class="caption" style="display: none;">
+								            <h2>Some Title</h2>
+								            <p>This is a caption to end all captions</p>
+								        </div>
+								    </div>  
+							    </div>    							    
+							    <div class="clearfix"> </div>               
+							</div>
+					</div>
+					 <div class="clearfix"> </div>   
+					</div>
+				</div>
+					<!---//works--->
+					<!---team--->
+					<div id="team" class="team">
+						<div class="container">
+							<div class="head-one text-center team-head">
+								<h2>Bizni O'qtuvchilarimiz</h2>
+								<span> </span>
+								<p>Malakali uztozlar lor Frontend, Backend, Kampiyuter Savodxonligi ,Grafik Dizayin ,shu soha sohiblari</p>
+							</div>	
+							<!----team-members---->
+							<div class="team-members">
+								<div class="col-md-3">
+									<div class="team-member text-center">
+										<img class="t-pic" style="width: 90px;" src="images/zufar.jpg" title="name" />
+										<h3>Zufarbek Abdurokmobov</h3>
+										<span>Frondtend</span>
+										<ul class="t-social unstyled-list list-inline">
+											<li><a class="twitter" href="#"><span> </span></a></li>
+											<li><a class="dribbble" href="#"><span> </span></a></li>
+											<li><a class="in" href="#"><span> </span></a></li>
+											<div class="clearfix"> </div>
+										</ul>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<div class="team-member text-center">
+										<img class="t-pic" style="width: 90px;" src="images/erkin.jpg" title="name" />
+										<h3>Erkin aka</h3>
+										<span>Frontend</span>
+										<ul class="t-social unstyled-list list-inline">
+											<li><a class="twitter" href="#"><span> </span></a></li>
+											<li><a class="dribbble" href="#"><span> </span></a></li>
+											<li><a class="in" href="#"><span> </span></a></li>
+											<div class="clearfix"> </div>
+										</ul>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<div class="team-member text-center">
+										<img class="t-pic" style="width: 90px;" src="images/sheroz.jpg" title="name" />
+										<h3>Sheroz Turdaliyev tog'o</h3>
+										<span>Frontend</span>
+										<ul class="t-social unstyled-list list-inline">
+											<li><a class="twitter" href="#"><span> </span></a></li>
+											<li><a class="dribbble" href="#"><span> </span></a></li>
+											<li><a class="in" href="#"><span> </span></a></li>
+											<div class="clearfix"> </div>
+										</ul>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<div class="team-member text-center">
+										<img class="t-pic" style="width: 90px;" src="images/saror.jpg" title="name" />
+										<h3>Sardor Karimov</h3>
+										<span>Odabnoma</span>
+										<ul class="t-social unstyled-list list-inline">
+											<li><a class="twitter" href="#"><span> </span></a></li>
+											<li><a class="dribbble" href="#"><span> </span></a></li>
+											<li><a class="in" href="#"><span> </span></a></li>
+											<div class="clearfix"> </div>
+										</ul>
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<!----//team-members---->
+						</div>
+					</div>
+					<!---//team--->
+					<!---Contact--->
+					<div id="contact" class="contact">
+						<div class="container">
+							<div class="head-one text-center">
+								<h2>Bizni manzilimiz</h2>
+								<span> </span>
+							</div>
+							<div class="contact-grids">
+								<div class="col-md-5 contact-map">
+								<p>Shu xarita orqali topasz?</p>
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d191884.74398259472!2d69.13928037296759!3d41.28277055706348!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8b0cc379e9c3%3A0xa5a9323b4aa5cb98!2z0KLQvtGI0LrQtdC90YIsIE9gemJla2lzdG9u!5e0!3m2!1suz!2s!4v1655119968260!5m2!1suz!2s" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+								</div>
+								<div class="col-md-7 contact-form">
+								<p>Qo'shimcha takliflaringiz bulsa yuborishingiz mumkin</p>	
+								<form>
+									<textarea>Shu bo'shiliqqa yozasz...</textarea>
+									<input type="text" value="sardorbekkarimov155@mail.com">
+									<input type="submit" value="Send" />
+								</form>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+					</div>
+					<div class="footer">
+						<div class="container">
+							<div class="footer-left">
+								<p><span>Adress:</span> Toshkent shahar chilonzor tuman 8 kvartil.</p>
+							</div>
+							<div class="footer-right">
+								<p>Template by <a href="#">Nima deb yozish kallaga kelmadi</a></p>
+								<script type="text/javascript">
+									$(document).ready(function() {										
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+								</script>
+									<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+	</body>
+</html>
+
